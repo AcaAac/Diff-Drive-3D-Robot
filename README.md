@@ -3,7 +3,9 @@
 ## Overview
 Bumperbot is a 3D differential drive robot simulated in Gazebo using ROS 2. It consists of multiple packages that enable simulation, control, and localization.
 
-![Bumperbot in Gazebo](path/to/your/image.png)
+![Bumperbot in Gazebo](src/bumperbot_still.png)
+
+![Bumperbot in Gazebo](src/bumperbot_moving.gif)
 
 ---
 
@@ -104,8 +106,8 @@ ros2 launch bumperbot_localization local_localization.launch.py
 ## Visualization
 - **PlotJuggler for real-time data visualization:**
 
-  ![PlotJuggler Visualization](path/to/plotjuggler_image.png)
+  ![PlotJuggler Visualization](src/plotjuggler.png)
 
 - **RViz comparison between odometry and base_footprint:**
 
-  ![RViz Comparison](path/to/rviz_image.png)
+  ![RViz Comparison](src/rviz2_moving.gif)
