@@ -100,7 +100,7 @@
             </z>
           </linear_acceleration>
         </imu>
-        <plugin name="bumperbot_imu" filename="libgazebo_ros_imu_sensor.so">
+        <plugin name="imu" filename="libgazebo_ros_imu_sensor.so">
         </plugin>
       </sensor>
     </gazebo>
